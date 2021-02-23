@@ -21,8 +21,7 @@ AFRAME.registerComponent("create-markers", {
       mainScene.appendChild(marker);
 
       // Adding 3D model to scene
-      var model = document.createElement("a-entity");
-    
+      var model = document.createElement("a-entity");    
      
       model.setAttribute("id", `model-${dish.id}`);
       model.setAttribute("position", dish.model_geometry.position);
